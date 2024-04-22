@@ -21,6 +21,7 @@ public class Coach implements Serializable  {
         coaches.add(new Coach("Hellen", Arrays.asList("Monday", "Saturday"), Arrays.asList("5-6pm", "6-7pm")));
     }
 
+    //constructor
     public Coach(String name, List<String> availableDays, List<String> availableTimeSlots) {
         this.name = name;
         this.availableDays = availableDays;
