@@ -44,7 +44,7 @@ public class Timetable implements Serializable {
         }
     }
 
-    // Method to initialize predefined learners
+    // Method to initialize predefined learners.
     private void initializeLearners() {
         // Fetch predefined learners from the Learner class
         List<Learner> predefinedLearners = Learner.getAllLearners();
