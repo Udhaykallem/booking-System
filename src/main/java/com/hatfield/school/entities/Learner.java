@@ -17,6 +17,7 @@ public class Learner implements Serializable {
     private static List<Learner> learners = new ArrayList<>();
     private static final String LEARNERS_FILE_PATH = "learners.ser";
 
+    //constructor
     public Learner(String name, char gender, int age, String emergencyContact, int gradeLevel) {
         this.name = name;
         this.gender = gender;
